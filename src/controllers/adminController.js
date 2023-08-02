@@ -23,7 +23,7 @@ let getManageClinic = async (req, res) => {
     });
 };
 
-let getCreateDoctor = async (req, res) => {
+let getCreateDoctor = async (req, res) => { 
     let clinics = await homeService.getClinics();
     let specializations = await homeService.getSpecializations();
     return res.render("main/users/admins/createDoctor.ejs", {

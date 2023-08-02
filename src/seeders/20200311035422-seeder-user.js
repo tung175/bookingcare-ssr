@@ -4,7 +4,7 @@ module.exports = {
     up: (queryInterface, Sequelize) => {
         return queryInterface.bulkInsert('Users', [
             {
-                name: 'admin - HaryPhamDev',
+                name: 'admin - Kyutung',
                 email: 'admin@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
                 address: 'New York',
@@ -37,7 +37,7 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Hary Pham',
+                name: 'Doctor - Tung',
                 email: 'doctor10@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
                 address: 'LA',
@@ -70,7 +70,7 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Doctor - Eric Pham',
+                name: 'Doctor - Han',
                 email: 'doctor3@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
                 address: 'LA',
@@ -81,7 +81,7 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham',
+                name: 'Supporter - Hien',
                 email: 'supporter@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
                 address: 'Arizona',
@@ -92,7 +92,7 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham 1',
+                name: 'Supporter - Hoang',
                 email: 'supporter1@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
                 address: 'Arizona',
@@ -103,7 +103,7 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham 2',
+                name: 'Supporter - Kyu',
                 email: 'supporter2@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
                 address: 'Arizona',
@@ -114,7 +114,7 @@ module.exports = {
                 updatedAt: new Date()
             },
             {
-                name: 'Supporter - Eric Pham 3',
+                name: 'Supporter - Karryupham',
                 email: 'supporter3@gmail.com',
                 password: '$2a$07$Bq0hCq3kVrvKUHfMT0NJROmQkx09aEQkGlwBGEdw799YJvWqH1kuy', //123456
                 address: 'Arizona',
